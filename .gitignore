@@ -3,6 +3,12 @@
 /node_modules
 /build
 /tmp
+/public/Untitled
+/next-env.d.ts
+/next.config.mjs
+/next.config.js
+/next.config.ts
+/next.config.json
 
 # Logs
 logs
@@ -22,3 +28,13 @@ lerna-debug.log*
 # temp directory
 .temp
 .tmp
+
+# .vscode
+.vscode
+
+# macOS
+.DS_Store
+
+# Next.js
+.next
+out
