@@ -10,6 +10,7 @@ import WhoWeAre from "./components/WhoWeAre";
 import OrbitSection from "./components/OrbitSection";
 import Teacher from "./components/Teacher";
 import UniversalModuleCTA from "./components/UniversalModuleCTA";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -64,6 +65,7 @@ export default function Home() {
           <OrbitSection />
         </div> */}
       </main>
+      <Footer />
     </div>
   );
 }

@@ -67,12 +67,14 @@ export default function ModuleLandingTemplate({
               <button
                 type="button"
                 className="rounded-xl border-2 border-[#17171e] bg-[#6110c7] px-5 py-2.5 text-sm font-black text-white shadow-[4px_4px_0px_#17171e] transition hover:translate-y-px hover:shadow-none"
+                onClick={() => window.open('https://calendly.com/vaishnavirudraraju-lumokido/30min', '_blank')}
               >
                 {primaryCta}
               </button>
               <button
                 type="button"
                 className="rounded-xl border-2 border-[#17171e] bg-white px-5 py-2.5 text-sm font-black text-[#17171e] shadow-[4px_4px_0px_#17171e] transition hover:translate-y-px hover:shadow-none"
+                onClick={() => window.open('https://calendly.com/vaishnavirudraraju-lumokido/30min', '_blank')}
               >
                 {secondaryCta}
               </button>

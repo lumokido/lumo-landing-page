@@ -20,22 +20,13 @@ const CreativeHero = () => {
         </p>
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-          <button className="rounded-xl border-2 border-[#17171e] bg-[#6110c7] px-5 py-2.5 text-sm font-black text-white shadow-[4px_4px_0px_#17171e] transition hover:translate-y-px hover:shadow-none">
-            Start Creating
-          </button>
-          <button className="rounded-xl border-2 border-[#17171e] bg-white px-5 py-2.5 text-sm font-black text-[#17171e] shadow-[4px_4px_0px_#17171e] transition hover:translate-y-px hover:shadow-none">
+        
+          <button className="rounded-xl border-2 border-[#17171e] bg-white px-5 py-2.5 text-sm font-black text-[#17171e] shadow-[4px_4px_0px_#17171e] transition hover:translate-y-px hover:shadow-none" onClick={() => window.open('https://calendly.com/vaishnavirudraraju-lumokido/30min', '_blank')}>
             Watch Demo
           </button>
         </div>
 
-        <div className="mt-6 flex items-center justify-center gap-3">
-          <div className="flex -space-x-3">
-            {[1, 2, 3, 4].map((item) => (
-              <div key={item} className="h-8 w-8 rounded-full border-2 border-white bg-[#d8d8e2]" />
-            ))}
-          </div>
-          <p className="text-xs font-semibold text-[#555568]">Over 2,000 schools trust Lumo globally</p>
-        </div>
+        
       </div>
 
       <div className="h-[400px] w-[400px] rounded-2xl border-2 border-[#17171e] bg-white p-3 shadow-[6px_6px_0px_#6d28d9]">

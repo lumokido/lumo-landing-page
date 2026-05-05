@@ -24,13 +24,11 @@ const QuizHeader = () => {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <button className="inline-flex items-center gap-2 rounded-2xl border-2 border-[#17171e] bg-[#6110c7] px-6 py-3 text-sm font-black text-white shadow-[4px_4px_0px_#17171e] transition hover:translate-x-px hover:translate-y-px hover:shadow-none sm:px-7 sm:py-3.5 sm:text-lg">
+            <button className="inline-flex items-center gap-2 rounded-2xl border-2 border-[#17171e] bg-[#6110c7] px-6 py-3 text-sm font-black text-white shadow-[4px_4px_0px_#17171e] transition hover:translate-x-px hover:translate-y-px hover:shadow-none sm:px-7 sm:py-3.5 sm:text-lg" onClick={() => window.open('https://calendly.com/vaishnavirudraraju-lumokido/30min', '_blank')}>
               Request a Demo
               <Rocket className="h-4 w-4 sm:h-5 sm:w-5" />
             </button>
-            <button className="rounded-2xl border-2 border-[#17171e] bg-white px-6 py-3 text-sm font-black text-[#17171e] shadow-[4px_4px_0px_#facc15] transition hover:translate-x-px hover:translate-y-px hover:shadow-none sm:px-7 sm:py-3.5 sm:text-lg">
-              See How it Works
-            </button>
+            
           </div>
         </div>
 

@@ -25,12 +25,14 @@ export default function HealthHero() {
           <button
             type="button"
             className="rounded-2xl bg-[#6110c7] px-6 py-3.5 text-sm font-bold text-white shadow-sm transition hover:bg-[#5210a8]"
+            onClick={() => window.open('https://calendly.com/vaishnavirudraraju-lumokido/30min', '_blank')}
           >
             Start Your Quest
           </button>
           <button
             type="button"
             className="rounded-2xl border-2 border-[#e3b700] bg-white px-6 py-3.5 text-sm font-bold text-[#17171e] transition hover:bg-[#fffef5]"
+            onClick={() => window.open('https://calendly.com/vaishnavirudraraju-lumokido/30min', '_blank')}
           >
             Watch Demo
           </button>

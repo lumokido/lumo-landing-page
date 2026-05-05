@@ -29,14 +29,14 @@ const Teacher = () => {
           Understand every student better with real-time progress tracking, activity insights, and smart analytics.
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-4">
+          {/* <div className="mt-8 flex flex-wrap gap-4">
             <button className="rounded-2xl border-2 border-[#17171e] bg-[#6110c7] px-7 py-3 text-sm font-black uppercase tracking-wide text-white shadow-[4px_4px_0px_#17171e] transition hover:translate-x-px hover:translate-y-px hover:shadow-none">
               Get Started
             </button>
             <button className="rounded-2xl border-2 border-[#17171e] bg-white px-7 py-3 text-sm font-black uppercase tracking-wide text-[#17171e] transition hover:bg-[#17171e] hover:text-white">
               Watch Demo
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
